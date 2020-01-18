@@ -1,0 +1,3 @@
+export const CHANGE_SORT_DIRECTION: string = "CHANGE_SORT_DIRECTION";
+export const CHANGE_SORT_COLUMN: string = "CHANGE_SORT_COLUMN";
+export const SET_TABLE_CONTENT: string = "SET_TABLE_CONTNET";
