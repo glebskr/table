@@ -1,6 +1,6 @@
 import React from "react";
 import { changeColumn, changeDirection } from "../../actions/sortActions";
-import {State} from '../../interfaces/state'
+import { State } from "../../interfaces/state";
 import { connect } from "react-redux";
 
 interface THItemProps {

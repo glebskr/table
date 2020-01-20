@@ -1,7 +1,7 @@
-import {ContentState} from './content'
-import {SortState} from './sort'
+import { ContentState } from "./content";
+import { SortState } from "./sort";
 
 export interface State {
   content: ContentState;
-  sort: SortState
+  sort: SortState;
 }

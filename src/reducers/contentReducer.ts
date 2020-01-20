@@ -6,7 +6,7 @@ const initialState: ContentState = {
   tableContent: null
 };
 
-export default function(state: ContentState = initialState, action: ContentAction) {
+export default function(state: ContentState = initialState, action: ContentAction): ContentState {
   switch (action.type) {
     case SET_TABLE_CONTENT:
       return {

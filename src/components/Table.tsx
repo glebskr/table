@@ -7,7 +7,7 @@ import { changeColumn, changeDirection } from "../actions/sortActions";
 import { ContentAction } from "../interfaces/action";
 import { ContentRow } from "../interfaces/content";
 import { SortState } from "../interfaces/sort";
-import {State} from '../interfaces/state'
+import { State } from "../interfaces/state";
 
 import _ from "lodash";
 
@@ -20,6 +20,7 @@ interface TableProps {
 }
 
 const Table: React.FC<TableProps> = ({ setContent, content, sort, changeDirection, changeColumn }) => {
+  
   useEffect(() => {
     fetch("https://raw.githubusercontent.com/blmzv/ah-frontend-intern/master/profiles.json")
       .then(res => res.json())

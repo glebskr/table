@@ -1,5 +1,5 @@
 import { CHANGE_SORT_COLUMN, CHANGE_SORT_DIRECTION } from "./types";
-import {SortAction} from './../interfaces/action'
+import { SortAction } from "./../interfaces/action";
 import { SortState } from "../interfaces/sort";
 
 const initialState: SortState = {
